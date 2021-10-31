@@ -1,26 +1,30 @@
 :root {
     --maroon: #A52A2A;
-    --white: #FAEBD7;
+    --antiquewhite: #FAEBD7;
+    --white: #FFFFFF;
 }
 
 .nav {
     background-color: var(--maroon);
-    color: var(--white);
+    color: var(--antiquewhite);
     margin-top: 0%;
     display: block;
-    height: 78px;
+    height: 60px;
+    font-family: "Cinzel";
 }
 
 .nav-home {
     display: inline-flex;
-    font-size: large;
+    font-size: x-large;
     padding-right: 5in;
 }
 
 .nav-item {
     list-style: none;
-    padding-left: 3.5em;
+    padding-left: 1em;
     display: inline-block;
+    font-size: large;
+    font-family: "Poppins";
 }
 
 NavLink {
@@ -35,6 +39,6 @@ a {
     color: var(--white);
     text-decoration: none;
     scroll-behavior: smooth;
-    padding-top: 25px;
+    padding-top: 12px;
     padding-left: 65px;
 }

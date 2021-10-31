@@ -1,3 +1,8 @@
+:root {
+    --maroon: #A52A2A;
+    --white: #FAEBD7;
+}
+
 .profile-gallery {
     float: left;
     width: 180px;
@@ -11,7 +16,7 @@
     border-radius: 50%;
     float: left;
     /* padding-left: 5px; */
-   border-color: brown;
+   border-color: var(--maroon);
    border-style: solid;
    
    
@@ -29,7 +34,7 @@
     padding: 15px;
     padding-top: 2px;
     padding-left: 63px;
-    color: brown;
+    color: var(--maroon);
 }
 
 
@@ -40,9 +45,9 @@
     height: 300px;
     margin-top: -200px;
     /* box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1); */
-    background-color: #a52a2a;
+    background-color: var(--maroon);
     bottom: 0;
-    color: antiquewhite;
+    color: var(--white);
     display: block;
     justify-content: center;
     display: flex;
@@ -79,9 +84,6 @@
     font-weight: lighter;
 }
 
-.about-us {
-    text-align: justify;
-}
 
 .main-pic{
     max-width: 1440px;
@@ -102,23 +104,34 @@
     position: absolute;
     bottom: 300px;
     left: 16px;
-    color: antiquewhite;
-    font-size:  50px;
-    padding-left: 30px;
+    color: var(--white);
+    font-size:  70px;
+    padding-left: 62px;
+    padding-bottom: 5px;
+    text-align: left;
+    font-family: "Helvetica";
+    font-weight: 600;
+}
+
+.about-us {
+    text-align: justify;
+    font-family: "Cinzel";
 }
 
 .about-us-desc {
     padding-left: 5%;
     padding-right: 10%;
     font-size: 22px;
+    font-family: "Poppins";
 }
 
 h3 {
     padding-bottom: 20px;
     padding-top: 30px;
-    font-size: 25px;
-    color: brown;
-    font-weight: lighter;
+    color: var(--maroon);
+    font-family: "Cinzel";
+    font-size: 36px;
+    
 
 }
 
