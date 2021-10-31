@@ -1,10 +1,14 @@
+:root {
+    --maroon: #A52A2A;
+    --white: #FAEBD7;
+}
+
 .nav {
-    background-color: brown;
-    color: antiquewhite;
+    background-color: var(--maroon);
+    color: var(--white);
     margin-top: 0%;
     display: block;
     height: 78px;
-    
 }
 
 .nav-home {
@@ -20,15 +24,15 @@
 }
 
 NavLink {
-    color: antiquewhite;
+    color: var(--white);
     text-decoration: none;
 }
 
 a hover {
-    color: white;
+    color: var(--white);
 }
 a {
-    color: white;
+    color: var(--white);
     text-decoration: none;
     scroll-behavior: smooth;
     padding-top: 25px;
